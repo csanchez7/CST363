@@ -87,5 +87,37 @@ class Hand {
 }
 
 class Deck {
+    public final int MAX_CARDS = 6 * 52;
+    private static Card[] masterPack;
+    private Card[] cards;
+    private int topCard;
+    private int numPacks;
     
+    public Deck(int numPacks) {
+        
+    }
+    
+    public void init(int numPacks) {
+        
+    }
+    
+    public void shuffle() {
+        
+    }
+    
+    public Card dealCard() {
+        return //Card object
+    }
+    
+    public getTopCard() {
+        return this.topCard;
+    }
+    
+    public Card inspectCard(int k) {
+        return //Card object
+    }
+    
+    private static void allocateMasterPack() {
+        
+    }
 }
